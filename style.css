@@ -1,0 +1,134 @@
+ul li::marker {
+    color: red;
+}
+
+.right_div {
+    width: 70%;
+    height: 650px;
+    float: right;
+    border: dotted 1px #00f;
+    background-color: #caa1fc;
+}
+
+.left_div{
+    width: 30%;
+    height: 650px;
+    border: dotted 1px #ff0;
+    background-color: #e9fca1;
+    
+}
+
+.footer{
+    clear: both;
+    
+    height: 300px;
+    background-color: #ece57f;
+    margin-bottom: 10px;
+}
+
+
+
+.table {
+    border-collapse: collapse;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.table td {
+    text-align: center;
+}
+
+.right_text {
+    text-align: center;
+}
+
+TABLE {
+    text-align: center;
+    width: 1000px; /* Ширина таблицы */
+    border-collapse: collapse; /* Убираем двойные линии между ячейками */
+   }
+   TD, TH {
+    padding: 3px; /* Поля вокруг содержимого таблицы */
+    border: 1px solid black; /* Параметры рамки */
+   }
+   TH {
+    background: #b0e0e6; /* Цвет фона */
+}
+
+input[type="radio"] {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid grey;
+  background-color: white;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-right: 10px;
+}
+
+input[type="radio"]:checked {
+  border-color: blue;
+  background-color: blue;
+}
+      .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: grey;
+        margin-top: 5px;
+        width: 776px;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .box {
+        width: 65px;
+        height: 65px;
+        margin: 45px;
+        display: flex;
+  justify-content: center;
+  align-items: center;
+    font-weight: bold;
+    font-size: 200%;
+      }
+      
+      #blue:checked ~ .container #box-1 {
+        background-color: blue;
+      }
+      
+      #red:checked ~ .container #box-2 {
+        background-color: red;
+      }
+      
+      #green:checked ~ .container #box-3 {
+        background-color: green;
+      }
+      
+      #blue:checked ~ .container #box-4 {
+        background-color: blue;
+      }
+      
+      .container #box-1 {
+        background-color: blue;
+        order: 3;
+      }
+      
+      .container #box-2 {
+        background-color: red;
+        order: 4;
+      }
+      
+      .container #box-3 {
+        background-color: green;
+        order: 1;
+      }
+      
+      .container #box-4 {
+        background-color: blue;
+        order: 2;
+      }
